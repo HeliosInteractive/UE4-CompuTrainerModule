@@ -1,6 +1,6 @@
 Setup
 =======
-**Note:** _You must aquire the .dlls from the computrainer SDK, we are not allowed to redistrubte._
+**Note:** _You must aquire the .dlls from the computrainer SDK, we are not allowed to redistribute._
 
 1. racermate.h -> "CompuTrainerModule\ThirdParty\RacerMate\Include\RacerMate"
 2. freetype6.dll, pcre3.dll, racermate.dll, racermate.lib, zlib1.dll -> "CompuTrainerModule\ThirdParty\RacerMate\Lib"
@@ -29,6 +29,6 @@ Adding debug controls to the player pawn:
 
 At this point you're ready to start testing in editor and making builds which respond to the CompuTrainer's output! Don't forget to also check out the other blueprint functions found in the Compu Trainer category.
 
-Shipping:
+Shipping
 =======
 Copy all .dll files to the into the build folder beside the .exe as they are needed at runtime and unreal does not copy them over properly at the time of this posting.
